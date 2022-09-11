@@ -9,3 +9,10 @@ Az API kezelje, illetve mentse le a feltöltött képeket és hajtsa végre a fe
 A felhasználó adatainak (jelen esetben egy felhasználónév és jelszó) egy MySQL adatbázisba menthetőnek, elérhetőnek kell lennie.  
 A feltöltött és lekezelt képeket egy adott felhasználóhoz kell tudnunk kötni, ezek kulcsok (ID) segítségével kell, hogy történjen.
 ## Követelménylista
+- a weboldalon ne legyenek felesleges funkciók
+- a felhasználói felület legyen könnyen használható, minden funkció legyen egyértelmű
+- a weboldal legyen megbízható, bírja a terhelést
+- új funckiókkal bővíthető legyen a weboldal
+- bírja a magas látogatottságot/nagy terhelést
+- a weboldal kompatibilis legyen telefonon is
+- az elkészült képek könnyen letölthetőek legyenek
