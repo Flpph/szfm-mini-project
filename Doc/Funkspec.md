@@ -2,6 +2,10 @@
 ## Jelenlegi helyzet leírása
 ## Megrendelői cél / Vágyálomrendszer leírása
 ## Használati esetek
+- Egyszerű képszerkesztéshez nem kell külön képszerkesztő felületet letölteni, ezt a weboldalon is végre lehet hajtani
+- Képre szövegírás
+- Kép letöltés illetve kép feltöltés
+- Felhasználó által készített képek egy oldalon való megtekintése
 ## A rendszerre vonatkozó szabályok
 ## Technikai feltételek
 ## Követelménylista
