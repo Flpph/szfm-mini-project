@@ -31,4 +31,7 @@ Kép feltöltése/kiválasztása => bemeneti adatok ellenőrzése => ha minden h
 - Kép letöltés illetve kép feltöltés
 - Felhasználó által készített képek egy oldalon való megtekintése
 ## Fogalomtár
+- meme : Egy olyan kép, melyre minél viccesebb szöveget akarunk írni. 
+- kollázs : Képek mozaikszerűen elhelyezve.
+
 
