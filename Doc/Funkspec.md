@@ -3,7 +3,12 @@
 Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy memet készíteni. Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre. Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen. Az oldal rendelkezni fog egy képgyűjteménnyel amit fel lehet használni alapként.
 
 ## Jelenlegi helyzet
+
+A megrendelő, külső weboldalakra van szorulva, ha szeretné megvalósítani saját képét. Ezen szeretne változtatni úgy, hogy saját oldalt szeretne, ahol olyan memeket tud készíteni, amilyet ő szeretne. Mivel a külső oldalak vízjellel megszokták jelölni a legenerált képeit, így látszik melyik konkurenciát használja. Emellett egy kicsit játékossá akarja tenni, hogy véletlenszerű képekre is lehet majd minél viccesebb szövegeket írni.
+
 ## Vágyálom rendszer
+
+Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár kiválasztani egy kép alapot, melyre könnyedén tud szöveget írni. Ha a kreativitását szeretné növelni, akkor pedig a véletlenszerű képekre lehet írni saját szöveget. Ezeket a memek pedig egy másik oldalon megtekinthetőek lesznek majd, ahol le lehet azokat tölteni.
 ## Követelménylista
 - K01 Regisztráció: A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.  
 A jelszó tárolása kódolva történik az adatbázisban.
