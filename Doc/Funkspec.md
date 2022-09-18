@@ -23,6 +23,8 @@ Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményekne
 - K09 A weboldal multiplatform flexibilis legyen.
 - K10 Text írása a képre.
 ## Jelenlegi üzleti folyamatok
+A jelenlegi üzleti folyamatokhoz tartozik a galéria, ahol a felhasználó megnézheti az oldalra feltöltött képeket, ám ezek egyelőre még csak statikusan szerepelnek az oldalon, az adminisztrátor által feltöltött képeket lehet csak megnézni.
+A feltöltött képeknél nem láthatjuk a feltöltés dátumát.
 ## Igényelt üzleti folyamatok
 Kép feltöltése/kiválasztása => bemeneti adatok ellenőrzése => ha minden helyes, akkor kép generálása => a kép kimutatása a felhasználónak => a kép lementése
 ## Használati esetek
