@@ -10,18 +10,15 @@ A megrendelő, külső weboldalakra van szorulva, ha szeretné megvalósítani s
 
 Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár kiválasztani egy kép alapot, melyre könnyedén tud szöveget írni. Ha a kreativitását szeretné növelni, akkor pedig a véletlenszerű képekre lehet írni saját szöveget. Ezeket a memek pedig egy másik oldalon megtekinthetőek lesznek majd, ahol le lehet azokat tölteni.
 ## Követelménylista
-- K01 Regisztráció: A felhasználó a felhasználói nevének, email címének és jelszavának megadásával regisztrálja magát.  
-A jelszó tárolása kódolva történik az adatbázisban.
-Ha valamelyik adat ezek közül hiányzik vagy nem felel meg a követelményeknek,akkor a rendszer értesíti erről a felhasználót.
-- K02 Bejelentkezési felület: A felhasználó az email címe és a jelszava segítségével bejelentkezhet.Ha a megadott email cím vagy jelszó nem megfelelő, akkor a felhasználó hibaüzenetet kap.
-- K03 Felhasználó módosítása: A felhasználó módosítani tudja saját Felhasználónevét. Ehhez szükséges a régi és az új felhasználók megadása, az új megerősítése, valamint a felhasználó jelszavának megadása.
-- K04 Jelszó módosítása: A felhasználó módosítani tudja saját jelszavát. Ehhez szükséges a régi és az új jelszavának megadása, valamint az új megerősítése.
-- K05 Kép bank létrehozása, ezekből a képekből választhat a felhasználó.
-- K06 Az elkészített/feltöltött képek ID-val felhasználókhoz való kötése.
-- K07 Opció kép feltöltésére, ha nem megfelelő filet választ ki a felhasználó, hibaüzenettel értesítődik erről a felhasználó.
-- K08 Elkészített kép letöltési opció.
-- K09 A weboldal multiplatform flexibilis legyen.
-- K10 Text írása a képre.
+
+- K01 Bejelentkezési felület: A felhasználó egy felhasználónévvel tud belépni a weboldalra.
+- K02 Kép bank létrehozása, ezekből a képekből választhat a felhasználó.
+- K03 Az elkészített/feltöltött képek ID-val felhasználókhoz való kötése.
+- K04 Opció kép feltöltésére, ha nem megfelelő filet választ ki a felhasználó, hibaüzenettel értesítődik erről a felhasználó.
+- K05 Elkészített kép letöltési opció.
+- K06 A weboldal multiplatform flexibilis legyen.
+- K07 Text írása a képre.
+- K08 Amikor a felhasználó belép a weboldalra a nemrég feltöltött/készített képeket megtudja tekinteni
 ## Jelenlegi üzleti folyamatok
 A jelenlegi üzleti folyamatokhoz tartozik a galéria, ahol a felhasználó megnézheti az oldalra feltöltött képeket, ám ezek egyelőre még csak statikusan szerepelnek az oldalon, az adminisztrátor által feltöltött képeket lehet csak megnézni.
 A feltöltött képeknél nem láthatjuk a feltöltés dátumát.
