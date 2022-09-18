@@ -20,6 +20,18 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 ## Üzleti folyamatok ábrája
 ## Követelmények
 ## Fizikai környezet
+- Nem volt szükség komponenseket, vagy külső rendszereket vásárolni.
+
+- Fejlesztői eszközök:  
+        - Visual Studio Code  
+        - GitHub  
+        - Trello  
+  
+- Fejlesztői platformok:  
+        - Html5  
+        - CSS  
+        - JavaScript  
+
 ## Adatbázis terv
 - Az adatbázisban dokumentumok fognak szerepelni, egy dokumentumban a kép létrehozásának dátuma, kép elérése, illetve a kép létrehozójának neve szerepel.
 - Egy dokumentumban szerepel:
