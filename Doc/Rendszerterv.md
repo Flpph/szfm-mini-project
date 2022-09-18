@@ -22,11 +22,14 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 ## Fizikai környezet
 ## Adatbázis terv
 ## Implementációs terv
+  - A frontend több HTML5/CSS/JS fájlból fog szerepelni, ezek fogják tartalmazni az alkalmazás oldalait illetve megjelenését.
+  - A backend egy MoleculerJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. Biztosítja az adatbázis adatait a frontendnek.
+- Az adatbázis egy MongoDB cluster lesz, ami a felhőben fog futni, nem a mi saját szerverünkön.
+
 ## Tesztterv
 - Beta teszt
     - A tesztet a fejlesztők végzik, illetve általuk kijelölt személyek.
     - A tesztnél egy “production” környezetben kell letesztelni a rendszer funkcionalitását.
     - A kijelölt személyek és a tesztelők hibákat küldhetnek, amikre a fejlesztők visszajelzést adnak.
-
 ## Telepítési terv
 ## Karbantartási terv
