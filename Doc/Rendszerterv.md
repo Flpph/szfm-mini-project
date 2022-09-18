@@ -40,4 +40,6 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
     - A tesztnél egy “production” környezetben kell letesztelni a rendszer funkcionalitását.
     - A kijelölt személyek és a tesztelők hibákat küldhetnek, amikre a fejlesztők visszajelzést adnak.
 ## Telepítési terv
+A szoftver webes felületéhez csak egy böngésző telepítése szükséges. A szerverre közvetlenül az internetről kapcsolódnak rá a kliensek.
 ## Karbantartási terv
+A karbantartás abban a formában fog megvalósulni, hogy a felhasználó által feltöltött és megalkotott képeket ellenőrizni fogjuk, hogy akár kiskorúak is megtudják tekinteni a weboldalt. Valamint a képi alap adatbázist is bővíteni fogjuk, hogy frissüljenek a meglévő képek.
