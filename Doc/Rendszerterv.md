@@ -21,6 +21,14 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 ## Követelmények
 ## Fizikai környezet
 ## Adatbázis terv
+- Az adatbázisban dokumentumok fognak szerepelni, egy dokumentumban a kép létrehozásának dátuma, kép elérése, illetve a kép létrehozójának neve szerepel.
+- Egy dokumentumban szerepel:
+    - id (objectid)
+    - author (string)
+    - createdAt (date)
+    - path (string)
+- A dokumentumok megkülönböztethetőek lesznek az id alapján.
+
 ## Implementációs terv
   - A frontend több HTML5/CSS/JS fájlból fog szerepelni, ezek fogják tartalmazni az alkalmazás oldalait illetve megjelenését.
   - A backend egy MoleculerJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. Biztosítja az adatbázis adatait a frontendnek.
