@@ -23,5 +23,10 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 ## Adatbázis terv
 ## Implementációs terv
 ## Tesztterv
+- Beta teszt
+    - A tesztet a fejlesztők végzik, illetve általuk kijelölt személyek.
+    - A tesztnél egy “production” környezetben kell letesztelni a rendszer funkcionalitását.
+    - A kijelölt személyek és a tesztelők hibákat küldhetnek, amikre a fejlesztők visszajelzést adnak.
+
 ## Telepítési terv
 ## Karbantartási terv
