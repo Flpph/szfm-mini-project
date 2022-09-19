@@ -19,6 +19,23 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 
 ## Üzleti folyamatok ábrája
 ## Követelmények
+1. K01 - Bejelentkezési felület:
+- A bejelentkezési adatok az adatbaázisba vannak lesznek letárolva.
+2. K02 - Kép bank:
+- A képi alapok a webszerveren lesznek feltöltve. 
+3. K03 - ID-hoz csatolás
+- Az elkészített képeket a felhasználó ID-jához kapcsoljuk.
+4. K04 - Védelem a képfeltöltésnél
+- Ha a felhasználó nem png vagy jpg fájlformátumot használ, akkor hibával jelez vissza a felhasználónak.
+5. K05 - Kép letöltés
+- Miután legeneráljuk a végleges képet, ezt letölthető lesz a felhasználó által.
+6. K06 - A weboldal multiplatform flexibilis
+- A weboldalt a leggyakrabban használt böngészőkben, illetve asztali számítógépeken, laptopokon és telefonokon is használható legyen.
+7. K07 - Szövegírás a képre
+- Működőképes szövegírás a képekre, a megfelelő helyen.
+8. K08 - Főoldal
+- A főoldalon megtekinthetőek lesznek a legfrissebb memek amik az oldalon készültek akár más felhasználók által.
+
 ## Fizikai környezet
 - Nem volt szükség komponenseket, vagy külső rendszereket vásárolni.
 
