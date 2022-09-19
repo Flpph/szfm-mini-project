@@ -18,6 +18,7 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
         - Átadás: 2022.09.26
 
 ## Üzleti folyamatok ábrája
+![Ábra 1](/Doc/imgs/abra1.jpg)
 ## Követelmények
 1. K01 - Bejelentkezési felület:
 - A bejelentkezési adatok az adatbaázisba vannak lesznek letárolva.
