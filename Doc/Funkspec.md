@@ -1,4 +1,5 @@
 # Funkcionális specifikáció
+
 ## Áttekintés
 Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy memet készíteni. Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre. Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen. Az oldal rendelkezni fog egy képgyűjteménnyel amit fel lehet használni alapként.
 
@@ -14,21 +15,26 @@ Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár
 - K01 Bejelentkezési felület: A felhasználó egy felhasználónévvel tud belépni a weboldalra.
 - K02 Kép bank létrehozása, ezekből a képekből választhat a felhasználó.
 - K03 Az elkészített/feltöltött képek ID-val felhasználókhoz való kötése.
-- K04 Opció kép feltöltésére, ha nem megfelelő filet választ ki a felhasználó, hibaüzenettel értesítődik erről a felhasználó.
-- K05 Elkészített kép letöltési opció.
-- K06 A weboldal multiplatform flexibilis legyen.
-- K07 Text írása a képre.
-- K08 Amikor a felhasználó belép a weboldalra a nemrég feltöltött/készített képeket megtudja tekinteni
+- K04 Opció kép feltöltésére, a kép legyen mindig .jpg formátumú.
+- K05 Ha nem megfelelő filet választ ki a felhasználó, hibaüzenettel értesítődik erről a felhasználó.
+- K06 Elkészített kép letöltési opció.
+- K07 A weboldal multiplatform flexibilis legyen.
+- K08 Text írása a képre.
+- K09 Amikor a felhasználó belép a weboldalra a nemrég feltöltött/készített képeket megtudja tekinteni
+
 ## Jelenlegi üzleti folyamatok
 A jelenlegi üzleti folyamatokhoz tartozik a galéria, ahol a felhasználó megnézheti az oldalra feltöltött képeket, ám ezek egyelőre még csak statikusan szerepelnek az oldalon, az adminisztrátor által feltöltött képeket lehet csak megnézni.
 A feltöltött képeknél nem láthatjuk a feltöltés dátumát.
+
 ## Igényelt üzleti folyamatok
 Kép feltöltése/kiválasztása => bemeneti adatok ellenőrzése => ha minden helyes, akkor kép generálása => a kép kimutatása a felhasználónak => a kép lementése
+
 ## Használati esetek
-- Egyszerű képszerkesztéshez nem kell külön képszerkesztő felületet letölteni, ezt a weboldalon is végre lehet hajtani
+- Egyszerű képszerkesztéshez nem kell külön képszerkesztői felületet letölteni, ezt a weboldalon is végre lehet hajtani
 - Képre szövegírás
 - Kép letöltés illetve kép feltöltés
 - Felhasználó által készített képek egy oldalon való megtekintése
+
 ## Fogalomtár
 - meme : Egy olyan kép, melyre minél viccesebb szöveget akarunk írni. 
 - kollázs : Képek mozaikszerűen elhelyezve.

@@ -38,4 +38,5 @@ A feltöltött és lekezelt képeket egy adott felhasználóhoz kell tudnunk kö
 - ha a feltöltött kép nem .jpg típusú akkor dobjon error üzenetet a weboldal
 
 ## Fogalomszótár
-- meme: Vicces kép, melyet a felhaszálók szöveggel kiegészítve készítenek.
+- meme: Egy olyan kép, melyre minél viccesebb szöveget akarunk írni. 
+- kollázs : Képek mozaikszerűen elhelyezve.
