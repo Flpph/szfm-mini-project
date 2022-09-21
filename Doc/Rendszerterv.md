@@ -56,17 +56,33 @@
 - Az adatbázisban dokumentumok fognak szerepelni, egy dokumentumban a kép létrehozásának dátuma, kép elérése, illetve a kép létrehozójának neve szerepel.
 - Egy kép dokumentumban szerepel:
     - id (objectid)
+      - Egy egyedi ObjectID, amit a MongoDB kezel.
     - author (objectid)
+      - Egy felhasználó ObjectID
     - createdAt (date)
+      - A dokumentum létrehozásának dátuma. (A kép feltöltésének dátuma)
+      - UTC időzóna
     - updatedAt (date)
+      - A dokumentum legutóbbi szerkesztésének dátuma.
+      - Legtöbb esetben meg fog egyezni a létrehozás dátummal.
+      - UTC időzóna
     - path (string)
+      - A kép elérésének címe.
 - Egy felhasználó dokumentumban szerepel:
     - id (objectid)
+      - Egy egyedi ObjectID, amit a MongoDB kezel.
     - username (string)
+      - A felhasználó által adott felhasználónév.
     - createdAt (date)
+      - A dokumentum létrehozásának dátuma. (A felhasználó regisztálásának dátuma)
+      - UTC időzóna
     - updatedAt (date)
+      - A dokumentum legutóbbi szerkesztésének dátuma.
+      - Esetleges jelszó vagy felhasználónév változtatás során változik.
     - password (string)
+      - Egy hashelt string
     - admin (boolean)
+      - Igaz/hamis, az adott felhasználó admin-e vagy sem
 - A dokumentumok megkülönböztethetőek lesznek az id alapján.
 ![Ábra 2](/Doc/imgs/abra2.jpeg)
 
