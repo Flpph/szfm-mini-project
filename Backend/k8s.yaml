@@ -9,8 +9,8 @@ data:
   NAMESPACE: ""
   LOGLEVEL: info
   SERVICEDIR: services
-  TRANSPORTER: nats://nats:4222
   
+  TRANSPORTER: redis://redis:6379
   
   
   
@@ -207,49 +207,49 @@ spec:
     app: mongo          
 
 
+
 ---
 #########################################################
-# NATS transporter service
+# Redis service
 #########################################################
 apiVersion: v1
 kind: Service
 metadata:
-  name: nats
+  name: redis
 spec:
   selector:
-    app: nats
+    app: redis
   ports:
-  - port: 4222
-    name: nats
-    targetPort: 4222
+  - port: 6379
+    name: redis
+    targetPort: 6379
 
 ---
 #########################################################
-# NATS transporter
+# Redis server (transporter/cacher)
 #########################################################
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nats
+  name: redis
 spec:
   selector:
     matchLabels:
-      app: nats
+      app: redis
   replicas: 1
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
-        app: nats
+        app: redis
     spec:
       containers:
-      - name: nats
-        image: nats
+      - name: redis
+        image: redis
         ports:
-        - containerPort: 4222
-          name: nats
-
+        - containerPort: 6379
+          name: redis
 
 
 

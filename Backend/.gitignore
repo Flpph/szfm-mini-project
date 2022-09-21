@@ -63,4 +63,4 @@ typings/
 # JetBrains IDE
 .idea
 
-.vscode
+docker-compose.env

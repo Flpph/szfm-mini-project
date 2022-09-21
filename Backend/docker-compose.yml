@@ -5,13 +5,13 @@ services:
   api:
     build:
       context: .
-    image: Backend
+    image: backend
     env_file: docker-compose.env
     environment:
       SERVICES: api
       PORT: 3000
     depends_on:
-      - nats
+      - redis
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.api-gw.rule=PathPrefix(`/`)"
@@ -22,25 +22,25 @@ services:
   greeter:
     build:
       context: .
-    image: Backend
+    image: backend
     env_file: docker-compose.env
     environment:
       SERVICES: greeter
     depends_on:
-      - nats
+      - redis
     networks:
       - internal
 
   products:
     build:
       context: .
-    image: Backend
+    image: backend
     env_file: docker-compose.env
     environment:
       SERVICES: products
     depends_on:
       - mongo
-      - nats
+      - redis
     networks:
       - internal
 
@@ -51,8 +51,8 @@ services:
     networks:
       - internal
 
-  nats:
-    image: nats:2
+  redis:
+    image: redis:alpine
     networks:
       - internal
 

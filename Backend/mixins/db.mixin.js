@@ -56,7 +56,7 @@ module.exports = function(collection) {
 
 	if (process.env.MONGO_URI) {
 		// Mongo adapter
-		const MongoAdapter = require("moleculer-db-adapter-mongo");
+		const MongoAdapter = require("moleculer-db-adapter-mongoose");
 
 		schema.adapter = new MongoAdapter(process.env.MONGO_URI);
 		schema.collection = collection;
