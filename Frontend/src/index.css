@@ -23,14 +23,21 @@
     text-decoration: none;
     color: black;
 }
-@media (min-width: 992px) { 
-    main{
-    margin:auto;
-    width:80%;
-} }
 footer{
     padding-top: 300px;
 }
 .content{
     margin:auto;
 }
+<<<<<<< Updated upstream
+=======
+.kartya{
+    width: 100%;
+}
+.oszlop{
+    align:"center";
+}
+.sor{
+    flex:auto;
+}
+>>>>>>> Stashed changes
