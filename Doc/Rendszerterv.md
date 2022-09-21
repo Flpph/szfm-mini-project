@@ -91,7 +91,7 @@
   - A frontend több HTML5/CSS/JS fájlból fog szerepelni, ezek fogják tartalmazni az alkalmazás oldalait illetve megjelenését.
   - A dizájnhoz Bootstrap 5.2 könyvtárat fogjuk használni.
 - Backend
-  - A backend egy MoleculerJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. 
+  - A backend egy NodeJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. 
   - Biztosítja az adatbázis adatait a frontendnek.
   - Tárolja és biztosítja a képeket.
   - Tartalmazza a bejelentkezés / regisztráció logikát.
