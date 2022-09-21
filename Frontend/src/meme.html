@@ -9,6 +9,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
     <title>MEME Generátor</title>
 </head>
+<style>
+  p.ex1 {
+    font-size: 45px;
+  }
+  p.ex2 {
+    font-size: 45px;
+    padding-top: 55px;
+  }
+  div.bt1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+</style>
 <body class="text-center">
     <header>
         <a href="index.html" class="cim">
@@ -39,8 +52,39 @@
         <div class="containter">
             <div class="row">
                 <div class="col" align="center">
-                    meme
+                  <img src="makeitmeme_6Dp3d.png" class="card-img-top">
                 </div>
+                <div class="col" align="center">
+                  <div>
+                    <p class="ex2">Top text:</p> 
+                  </div>
+                  <div>
+                    <input type="text" class="form-control" id="felsoSzoveg" aria-describedby="felsoSzoveg" placeholder="Add meg a felső szöveget">
+                  </div>
+                  <div>
+                    <p class="ex1">Bottom text:</p> 
+                  </div>
+                  <div>
+                    <input type="text" class="form-control" id="felsoSzoveg" aria-describedby="felsoSzoveg" placeholder="Add meg az alsó szöveget">
+                  </div>
+                  <div class="bt1">
+                    <button type="submit" class="btn btn-primary"><--</button>
+                    <button type="submit" class="btn btn-primary">--></button>
+                    <button type="submit" class="btn btn-primary">Randomizáló</button>
+                  </div>
+                  <div>
+                    <p class="ex1">Tölts fel képet:</p>
+                  </div>
+                  <div>
+                    <input type="file" class="form-control" accept="image/png, image/png, image/jpeg" id="customFile" />
+                  </div>
+                  <div>
+                    <p class="ex1"> Meme generálása:</p>
+                  </div>
+                  <div >
+                    <button type="submit" class="btn btn-primary">Meme Generator</button>
+                  </div>
+              </div>
             </div>
         </div>
     </main>
