@@ -1,0 +1,20 @@
+.download-btn{
+    height: 35px;
+}
+.card-credit{
+    padding-top: 10px;
+}
+main{
+
+}
+@media (min-width: 992px) { 
+    main{
+    margin:auto;
+    width:80%;
+} }
+footer{
+    padding-top: 300px;
+}
+.content{
+    margin:auto;
+}
