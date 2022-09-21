@@ -13,13 +13,12 @@
   p.ex1 {
     font-size: 45px;
   }
-  p.ex2 {
-    font-size: 45px;
-    padding-top: 55px;
-  }
   div.bt1{
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+  div.koz{
+    padding-top: 55px;
   }
 </style>
 <body class="text-center">
@@ -55,8 +54,17 @@
                   <img src="makeitmeme_6Dp3d.png" class="card-img-top">
                 </div>
                 <div class="col" align="center">
+                  <div class="koz"></div>
+                  <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Felhasználónév">
+                    </div>
+                  </div>
                   <div>
-                    <p class="ex2">Top text:</p> 
+                    <p class="ex1">Top text:</p> 
                   </div>
                   <div>
                     <input type="text" class="form-control" id="felsoSzoveg" aria-describedby="felsoSzoveg" placeholder="Add meg a felső szöveget">
