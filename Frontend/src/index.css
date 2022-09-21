@@ -4,8 +4,24 @@
 .card-credit{
     padding-top: 10px;
 }
-main{
+.cim:link {
+    text-decoration: none;
+    color: black;
+}
 
+.cim:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.cim:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.cim:active {
+    text-decoration: none;
+    color: black;
 }
 @media (min-width: 992px) { 
     main{
