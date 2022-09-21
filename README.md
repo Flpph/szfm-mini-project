@@ -1,5 +1,7 @@
 # szfm-mini-project
 
+[Weboldal linkje](https://shrek.unideb.hu/~danielsarkozi/)
+
 - Projektszerepkörök, felelősségek: 
     - Frontend
     - Backend
