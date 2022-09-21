@@ -52,12 +52,21 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 
 ## Adatbázis terv
 - Az adatbázisban dokumentumok fognak szerepelni, egy dokumentumban a kép létrehozásának dátuma, kép elérése, illetve a kép létrehozójának neve szerepel.
-- Egy dokumentumban szerepel:
+- Egy kép dokumentumban szerepel:
     - id (objectid)
-    - author (string)
+    - author (objectid)
     - createdAt (date)
+    - updatedAt (date)
     - path (string)
+- Egy felhasználó dokumentumban szerepel:
+    - id (objectid)
+    - username (string)
+    - createdAt (date)
+    - updatedAt (date)
+    - password (string)
+    - admin (boolean)
 - A dokumentumok megkülönböztethetőek lesznek az id alapján.
+![Ábra 2](/Doc/imgs/abra2.jpeg)
 
 ## Implementációs terv
   - A frontend több HTML5/CSS/JS fájlból fog szerepelni, ezek fogják tartalmazni az alkalmazás oldalait illetve megjelenését.
