@@ -1,7 +1,9 @@
 # Rendszerterv
 ## A rendszer célja
-- Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy “meme”-t készíteni. Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre.  
-Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen. Az oldal rendelkezni fog egy kép gyűjteménnyel amit fel lehet használni alapként.
+- Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy “meme”-t készíteni.  
+- Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre. 
+- Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen.  
+- Az oldal rendelkezni fog egy kép gyűjteménnyel amit fel lehet használni alapként.
 ## Projektterv
     - Projektszerepkörök, felelősségek: 
         - Frontend
@@ -69,9 +71,18 @@ Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működ�
 ![Ábra 2](/Doc/imgs/abra2.jpeg)
 
 ## Implementációs terv
+- Frontend
   - A frontend több HTML5/CSS/JS fájlból fog szerepelni, ezek fogják tartalmazni az alkalmazás oldalait illetve megjelenését.
-  - A backend egy MoleculerJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. Biztosítja az adatbázis adatait a frontendnek.
-- Az adatbázis egy MongoDB cluster lesz, ami a felhőben fog futni, nem a mi saját szerverünkön.
+  - A dizájnhoz Bootstrap 5.2 könyvtárat fogjuk használni.
+- Backend
+  - A backend egy MoleculerJS projekt lesz, ami tartalmazni fogja az összes olyan logikát, amit a szervernek kell, hogy lebonyolítson. 
+  - Biztosítja az adatbázis adatait a frontendnek.
+  - Tárolja és biztosítja a képeket.
+  - Tartalmazza a bejelentkezés / regisztráció logikát.
+- Adatbázis
+  - Egy MongoDB cluster.
+  - Tárolja a felhasználókról és a képekről az adatokat.
+  - Magát a képet nem itt tároljuk.
 
 ## Tesztterv
 - Beta teszt
