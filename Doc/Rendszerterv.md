@@ -21,6 +21,19 @@
 
 ## Üzleti folyamatok ábrája
 ![Ábra 1](/Doc/imgs/abra1.jpg)
+
+1. A felhasználó megnyitja a weboldalt, ahol a főoldalon a többi felhasználó által készített kép van, majd ha megnyitja a MEME generálása fület akkor ezt a felhasználó is megteheti.
+
+2. Bekér egy nevet a felhasználótól, ami majd a kép legenerálása után a főoldalon fog megjelenni a kép alatt.
+
+3. Eldöntheti a felhasználó, hogy saját képet használ, vagy a weboldalon fent lévők közül választhat. 3 gomb van erre a lehetőségre, az előre- és hátralépő gomb, valamint egy randomizáló, ami az oldalon lévő képekből véletlenszerűen választ ki.
+
+4. A 2 szövegdobozba pedig beírhatja az általa beírandó szöveget a képre.
+
+5. Miután végzett a felhasználó, a "Meme Generátor" gombbal legenerálhatja a képet.
+
+6. A kép generálása után letöltheti a felhasználó a képet, és kikerül a főoldalra.
+
 ## Követelmények
 1. K01 - Bejelentkezési felület:
 - A bejelentkezési adatok az adatbaázisba vannak lesznek letárolva.
