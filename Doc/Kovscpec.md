@@ -9,14 +9,15 @@ Ennek elérésére a felhasználó feltud tölteni saját képet, vagy akár vá
 Miután a felhasználó kiválasztotta/feltöltötte a képet erre egyedi szöveget tud majd írni.
 
 ## Rendszerre vonatkozó szabályok
-- a felhasználó adataira vonatkozó jogszabályok betartása
+- a kép készítésekor felhasználónév megadása
 - 18 év alattiak számára nem ajánlott tartalom ne jelenjen meg a weboldalon
 - trágár és nem odaillő memek kiszűrése az oldalról
-- a weboldal HTML5, CSS és JavaScript-tel valósuljon meg
+- a weboldal HTML5,Bootstrap, CSS és JavaScript-tel valósuljon meg
 - a szöveg betűtípusa nem számít
 - a szöveg színe nem számít
 - a felhasználói felület könnyen használható legyen
-- a feltölthető kép típusa mindig .jpg formátumú legyen
+- a feltölthető kép típusa mindig .jpg vagy .png formátumú legyen
+
 
 ## Technikai feltételek
 A honlap egy HTML/CSS/JS (frontend) és egy bármilyen nyelven készült API (backend) legyen.  
@@ -25,7 +26,7 @@ A felhasználó adatainak (jelen esetben egy felhasználónév és jelszó) egy 
 A feltöltött és lekezelt képeket egy adott felhasználóhoz kell tudnunk kötni, ezek kulcsok (ID) segítségével kell, hogy történjen.
 
 ## Követelménylista
-- felhasználónévvel történő bejelentkezés
+- felhasználónévvel bekérése a fénykép készítésekor
 - a weboldalon ne legyenek felesleges funkciók
 - a felhasználói felület legyen könnyen használható, minden funkció legyen egyértelmű
 - a weboldal legyen megbízható
@@ -35,7 +36,8 @@ A feltöltött és lekezelt képeket egy adott felhasználóhoz kell tudnunk kö
 - a weboldal kompatibilis legyen telefonon is
 - az elkészült képek könnyen letölthetőek legyenek
 - a feltölthető kép esetén ha a kép mindig legyen .jpg típusú
-- ha a feltöltött kép nem .jpg típusú akkor dobjon error üzenetet a weboldal
+- ha a feltöltött kép nem .jpg vagy .png típusú akkor dobjon error üzenetet a weboldal
+- navigációs felület, ahol a felhasználó tud váltani a fő oldal és a meme generátor között
 
 ## Fogalomszótár
 - meme: Egy olyan kép, melyre minél viccesebb szöveget akarunk írni. 

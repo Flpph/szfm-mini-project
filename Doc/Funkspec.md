@@ -12,15 +12,18 @@ A megrendelő, külső weboldalakra van szorulva, ha szeretné megvalósítani s
 Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár kiválasztani egy kép alapot, melyre könnyedén tud szöveget írni. Ha a kreativitását szeretné növelni, akkor pedig a véletlenszerű képekre lehet írni saját szöveget. Ezeket a memek pedig egy másik oldalon megtekinthetőek lesznek majd, ahol le lehet azokat tölteni.
 ## Követelménylista
 
-- K01 Bejelentkezési felület: A felhasználó egy felhasználónévvel tud belépni a weboldalra.
+- K01 A kép elkészítésekor a felhasználónak egy felhasználó nevet kell megadnia.
 - K02 Kép bank létrehozása, ezekből a képekből választhat a felhasználó.
 - K03 Az elkészített/feltöltött képek ID-val felhasználókhoz való kötése.
-- K04 Opció kép feltöltésére, a kép legyen mindig .jpg formátumú.
+- K04 Opció kép feltöltésére, a kép legyen mindig .jpg vagy .png formátumú.
 - K05 Ha nem megfelelő filet választ ki a felhasználó, hibaüzenettel értesítődik erről a felhasználó.
 - K06 Elkészített kép letöltési opció.
 - K07 A weboldal multiplatform flexibilis legyen.
 - K08 Text írása a képre.
 - K09 Amikor a felhasználó belép a weboldalra a nemrég feltöltött/készített képeket megtudja tekinteni
+- K10 A nemrég feltöltött képek alatt egy "@"-el jelenjen meg mely felhasználó készítette
+- K11 A weboldal 2 oldalból álljon: főoldal, meme generátor
+- K12 Az oldal tetején legyen egy navigációs felület ahol a felhasználó tud váltani a meme generátor és a főoldal között
 
 ## Jelenlegi üzleti folyamatok
 A jelenlegi üzleti folyamatokhoz tartozik a galéria, ahol a felhasználó megnézheti az oldalra feltöltött képeket, ám ezek egyelőre még csak statikusan szerepelnek az oldalon, az adminisztrátor által feltöltött képeket lehet csak megnézni.
