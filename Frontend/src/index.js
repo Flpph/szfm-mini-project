@@ -4,7 +4,7 @@ var t = $.template('\
                        <img src="${url}" class="card-img-top">\
                         <div class="row">\
                             <div class="col">\
-                                <p class="card-credit">@{urername}</p>\
+                                <p class="card-credit">@{username}</p>\
                             </div>\
                             <div class="col">\
                                 <a href="#" class="btn btn-light"><img class="download-btn" src="images/btn_download.png"></a>\
@@ -14,17 +14,16 @@ var t = $.template('\
                 </div>\
 ');
 
-for (let i = 0; i < pictures.length; i++) {
-    $(selector).append( t , {
-        url: jsonObj.url,
-        username: jsonObj.username
-   });
-  }
-
-
-
-
-
+function KartyaKiiras(){
+    for (let i = 0; i < pictures.length; i++) {
+        $(selector).append( t , {
+            url: jsonObj.url,
+            username: jsonObj.username
+       });
+      }
+    
+    
+}
 
 
 
