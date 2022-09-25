@@ -1,13 +1,13 @@
 "use strict";
 const DBMixin = require("../mixins/db.mixin");
-const Image = require("../models/image");
+const User = require("../models/user");
 
 module.exports = {
-	name: "image",
-	model: Image,
+	name: "user",
+	model: User,
 	version: 1,
 	mixins: [
-		DBMixin("images"),
+		DBMixin("users"),
 	],
 	actions: {
 		count: false,
