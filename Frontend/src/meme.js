@@ -3,7 +3,35 @@ const canvas = document.querySelector("#meme");
 const topTextInput = document.querySelector("#topTextInput");
 const bottomTextInput = document.querySelector("#bottomTextInput");
 
+const randomizalo = document.querySelector("#randomizalo");
+
 let image;
+const memes = ["images/memealapok/1.jpg", "images/memealapok/2.jpg", "images/memealapok/3.jpg", "images/memealapok/4.jpg", "images/memealapok/5.jpg", "images/memealapok/6.jpg", "images/memealapok/8.jpg", "images/memealapok/9.jpg", "images/memealapok/10.jpg"];
+
+function RandomKep(){
+    var rnd = Math.floor((Math.random() * 10)+1);
+    return "images/memealapok/"+rnd+".jpg";
+}
+
+randomizalo.onclick = function(e){
+  const imageDataUrl = RandomKep();
+
+  image = new Image();
+  image.src = imageDataUrl;
+
+  image.addEventListener(
+    "load",
+    () => {
+      updateMemeCanvas(
+        canvas,
+        image,
+        topTextInput.value,
+        bottomTextInput.value
+      );
+    },
+    { once: true }
+  );
+};
 
 imageFileInput.addEventListener("change", (e) => {
   const imageDataUrl = URL.createObjectURL(e.target.files[0]);
@@ -29,9 +57,8 @@ imageFileInput.addEventListener("change", (e) => {
 
 async function DownloadMeme(){
   var username= document.getElementById("username").value;
-  var kep= document.getElementById("imageFileInput").files;
   
-  if(username=="" || kep.length==0){
+  if(username==""){
     alert("Felhasználónév vagy kép nemtalálható!");
     return;
   }

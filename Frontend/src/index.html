@@ -7,6 +7,7 @@
     <link href="index.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="index.js"></script>
     <title>MEME Generátor</title>
 </head>
@@ -29,68 +30,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="meme.html">MEME generálás</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Legtöbbet letöltött</a>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
     <main class=content>
         <div class="containter">
-            <div class="row sor">
-                <div class="col-sm-12 col-md-6 col-lg-3 oszlop">
-                    <div class="card kartya">
-                        <img src="makeitmeme_6Dp3d.png" class="card-img-top">
-                        <div class="row">
-                            <div class="col">
-                                <p class="card-credit">@kepkeszito</p>
-                            </div>
-                            <div class="col">
-                                <a href="#" class="btn btn-light"><img class="download-btn" src="images/btn_download.png"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 oszlop">
-                    <div class="card kartya">
-                        <img src="makeitmeme_6Dp3d.png" class="card-img-top">
-                        <div class="row">
-                            <div class="col">
-                                <p class="card-credit">@kepkeszito</p>
-                            </div>
-                            <div class="col">
-                                <a href="#" class="btn btn-light"><img class="download-btn" src="images/btn_download.png"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 oszlop">
-                    <div class="card kartya">
-                        <img src="makeitmeme_6Dp3d.png" class="card-img-top">
-                        <div class="row">
-                            <div class="col">
-                                <p class="card-credit">@kepkeszito</p>
-                            </div>
-                            <div class="col">
-                                <a href="#" class="btn btn-light"><img class="download-btn" src="images/btn_download.png"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-3 oszlop">
-                    <div class="card kartya">
-                        <img src="makeitmeme_6Dp3d.png" class="card-img-top">
-                        <div class="row">
-                            <div class="col">
-                                <p class="card-credit">@kepkeszito</p>
-                            </div>
-                            <div class="col">
-                                <a href="#" class="btn btn-light"><img class="download-btn" src="images/btn_download.png"></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div class="row sor" id="kepSor">
+                
             </div>
         </div>
     </main>
