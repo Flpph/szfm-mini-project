@@ -1,8 +1,12 @@
 const mongoose = require("mongoose");
 
 const ImageScheme = new mongoose.Schema({
+    name: {
+        type: String,
+        required: true,
+    },
     author: {
-        type: mongoose.Schema.Types.ObjectId,
+        type: String,
         required: true,
     },
     path: {

@@ -18,6 +18,8 @@ services:
       - "traefik.http.services.api-gw.loadbalancer.server.port=3000"
     networks:
       - internal
+    volumes:
+      - data:/tmp
 
   image:
     build:
@@ -31,6 +33,8 @@ services:
       - redis
     networks:
       - internal
+    volumes:
+      - data:/tmp
 
   users:
     build:
@@ -38,7 +42,7 @@ services:
     image: backend
     env_file: docker-compose.env
     environment:
-      SERVICES: users
+      SERVICES: user
     depends_on:
       - mongo
       - redis

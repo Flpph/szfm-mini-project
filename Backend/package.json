@@ -25,13 +25,16 @@
     "moleculer-repl": "^0.6.6"
   },
   "dependencies": {
+    "formidable": "^2.0.1",
+    "hat": "^0.0.3",
     "ioredis": "^4.27.9",
     "moleculer": "^0.14.16",
     "moleculer-db": "^0.8.15",
     "moleculer-db-adapter-mongo": "^0.4.13",
     "moleculer-db-adapter-mongoose": "^0.8.14",
     "moleculer-web": "^0.10.2",
-    "mongoose": "^5.10.0"
+    "mongoose": "^5.10.0",
+    "path": "^0.12.7"
   },
   "engines": {
     "node": ">= 12.x.x"
