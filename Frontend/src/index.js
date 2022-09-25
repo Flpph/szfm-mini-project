@@ -1,3 +1,7 @@
+window.onload = (event) => {
+    console.log();
+  };
+
 var t = $.template('\
 <div class="col-sm-12 col-md-6 col-lg-3 oszlop">\
                     <div class="card kartya">\
