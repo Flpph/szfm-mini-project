@@ -28,13 +28,20 @@ imageFileInput.addEventListener("change", (e) => {
 
 
 async function DownloadMeme(){
+  var username= document.getElementById("username").value;
+  var kep= document.getElementById("imageFileInput").files;
+  
+  if(username=="" || kep.length==0){
+    alert("Felhasználónév vagy kép nemtalálható!");
+    return;
+  }
   var canvas = document.getElementById("meme");
   var img = canvas.toDataURL("image/png");
 
   let imageBlob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
 
   let formData = new FormData();
-  formData.append("username", "John");
+  formData.append("username", username);
   formData.append("file", imageBlob, "image.png");
 
   let response = await fetch('http://95.138.193.85:3000/api/image/generate', {
