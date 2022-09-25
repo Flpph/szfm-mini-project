@@ -82,7 +82,7 @@
 
 - Teszt konkluzió: Megfelőlen működik az felhasználónév hiányát jelző hibaüzenet.
 
-![Teszt 1](/Doc/imgs/teszt1.png)
+![Teszt 1](/Doc/imgs/teszt1.PNG)
 
 ### Frontend - Kép hiánya
 
@@ -100,7 +100,7 @@
 
 - Teszt konkluzió: Megfelőlen működik az kép hiányát jelző hibaüzenet.
 
-![Teszt 1](/Doc/imgs/teszt2.png)
+![Teszt 1](/Doc/imgs/teszt2.PNG)
 
 ### Frontend - "MEME generálása" gomb
 
