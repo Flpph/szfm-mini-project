@@ -28,7 +28,7 @@ imageFileInput.addEventListener("change", (e) => {
 function DownloadMeme(){
   var canvas = document.getElementById("meme");
   var img    = canvas.toDataURL("image/png");
-  document.write('<img src="'+img+'"/ >');
+  document.write('<img src="'+img+'"/>');
 }
 
 topTextInput.addEventListener("change", () => {
