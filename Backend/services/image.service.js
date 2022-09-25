@@ -51,6 +51,12 @@ module.exports = {
 
 				return { path: "http://95.138.193.85:3000/images/" + newName + ".png" }
 			}
+		},
+		listMemes: {
+			rest: "GET /listMemes",
+			async handler(ctx) {
+				return await Image.find({});
+			}
 		}
 	},
 	methods: {
