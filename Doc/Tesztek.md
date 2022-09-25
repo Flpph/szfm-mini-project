@@ -116,6 +116,7 @@
 
 - Kapott eredmény: A "MEME generálása" gombra kattintva a képet megnyitja egy új tabon a weboldal.
 
-- Teszt konkluzió: Megfelőlen működik a "MEME generálása" gomb.
+- Teszt konkluzió: Megfelőlen működik a "MEME generálása" gomb.  
+
 
 
