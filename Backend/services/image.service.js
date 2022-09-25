@@ -38,7 +38,7 @@ module.exports = {
 				const readFile = fs.readFileSync(uploadedFile.filepath);
 
 				var newName = hat();
-				var filePath = path.resolve(__dirname, "../public/images/" +newName + ".png");
+				var filePath = path.resolve(__dirname, "../public/images/" + newName + ".png");
 				fs.writeFileSync(filePath, readFile);
 
 				await Image.create({
@@ -49,7 +49,7 @@ module.exports = {
 
 				fs.unlinkSync(uploadedFile.filepath);
 
-				return "OK"
+				return { path: "http://95.138.193.85:3000/images/" + newName + ".png" }
 			}
 		}
 	},
