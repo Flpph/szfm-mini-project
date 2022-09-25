@@ -25,10 +25,24 @@ imageFileInput.addEventListener("change", (e) => {
   );
 });
 
-function DownloadMeme(){
+
+
+async function DownloadMeme(){
   var canvas = document.getElementById("meme");
-  var img    = canvas.toDataURL("image/png");
-  document.write('<img src="'+img+'"/>');
+  var img = canvas.toDataURL("image/png");
+
+  let imageBlob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+
+  let formData = new FormData();
+  formData.append("username", "John");
+  formData.append("file", imageBlob, "image.png");
+
+  let response = await fetch('http://95.138.193.85:3000/api/image/generate', {
+    method: 'POST',
+    body: formData
+  });
+  let result = await response.json();
+  window.open(result.path, "_blank");
 }
 
 topTextInput.addEventListener("change", () => {
