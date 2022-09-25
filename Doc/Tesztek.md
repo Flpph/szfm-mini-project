@@ -65,3 +65,57 @@
 - Várt eredmény: Kilistázza az összes szerveren lévő képet
 
 - Teszt konkluzió: Megfelőlen működik az adatbázis és az API
+
+### Frontend - Felhasználónév hiánya
+
+- Tesztelő neve: Szabó Zoltán
+
+- Teszelés ideje: 2022.09.25 20:35
+
+- Tesztelt rendszer: Frontend
+
+- Rendszer amin a teszt végbement: Windows 10, Google Chrome
+
+- Várt eredmény: A weboldal hibaüzenetet dob a felhasználónév hiánya miatt.
+
+- Kapott eredmény: A weboldal hibaüzenetet dob a felhasználónév hiánya miatt.
+
+- Teszt konkluzió: Megfelőlen működik az felhasználónév hiányát jelző hibaüzenet.
+
+![Teszt 1](/Doc/imgs/teszt1.png)
+
+### Frontend - Kép hiánya
+
+- Tesztelő neve: Szabó Zoltán
+
+- Teszelés ideje: 2022.09.25 20:39
+
+- Tesztelt rendszer: Frontend
+
+- Rendszer amin a teszt végbement: Windows 10, Google Chrome
+
+- Várt eredmény: A weboldal hibaüzenetet dob a kép hiánya miatt.
+
+- Kapott eredmény: A weboldal hibaüzenetet dob a kép hiánya miatt.
+
+- Teszt konkluzió: Megfelőlen működik az kép hiányát jelző hibaüzenet.
+
+![Teszt 1](/Doc/imgs/teszt2.png)
+
+### Frontend - "MEME generálása" gomb
+
+- Tesztelő neve: Szabó Zoltán
+
+- Teszelés ideje: 2022.09.25 20:42
+
+- Tesztelt rendszer: Frontend
+
+- Rendszer amin a teszt végbement: Windows 10, Google Chrome
+
+- Várt eredmény: A "MEME generálása" gombra kattintva a képet megnyitja egy új tabon a weboldal.
+
+- Kapott eredmény: A "MEME generálása" gombra kattintva a képet megnyitja egy új tabon a weboldal.
+
+- Teszt konkluzió: Megfelőlen működik a "MEME generálása" gomb.
+
+
