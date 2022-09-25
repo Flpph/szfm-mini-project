@@ -19,25 +19,26 @@ services:
     networks:
       - internal
 
-  greeter:
+  image:
     build:
       context: .
     image: backend
     env_file: docker-compose.env
     environment:
-      SERVICES: greeter
+      SERVICES: image
     depends_on:
+      - mongo
       - redis
     networks:
       - internal
 
-  products:
+  users:
     build:
       context: .
     image: backend
     env_file: docker-compose.env
     environment:
-      SERVICES: products
+      SERVICES: users
     depends_on:
       - mongo
       - redis
