@@ -1,15 +1,23 @@
 # Funkcionális specifikáció
 
 ## Áttekintés
-Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy memet készíteni. Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre. Szeretnénk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen. Az oldal rendelkezni fog egy képgyűjteménnyel amit fel lehet használni alapként.
+- Egy olyan weboldalt készítünk, melyen a felhasználók akár saját képükről tudnak egy vicces képet, azaz egy memet készíteni. 
+- Emellett megtekintheti majd, hogy más felhasználók milyen szöveggel drukkolnak elő arra képre. 
+- Célunk, hogy a képek könnyen szerkeszthetőek legyenek, az oldal működése és kezelése egyszerű, könnyen tanulható legyen. 
+- Az oldal rendelkezni fog egy képgyűjteménnyel amit fel lehet használni alapként.
 
 ## Jelenlegi helyzet
 
-A megrendelő, külső weboldalakra van szorulva, ha szeretné megvalósítani saját képét. Ezen szeretne változtatni úgy, hogy saját oldalt szeretne, ahol olyan memeket tud készíteni, amilyet ő szeretne. Mivel a külső oldalak vízjellel megszokták jelölni a legenerált képeit, így látszik melyik konkurenciát használja. Emellett egy kicsit játékossá akarja tenni, hogy véletlenszerű képekre is lehet majd minél viccesebb szövegeket írni.
+- A megrendelő, külső weboldalakra van szorulva, ha szeretné megvalósítani saját képét. 
+- Ezen szeretne változtatni úgy, hogy saját oldalt szeretne, ahol olyan memeket tud készíteni, amilyet ő szeretne. 
+- A külső oldalak vízjellel megszokták jelölni a legenerált képeit, így látszik melyik konkurenciát használja. 
+- Emellett egy kicsit játékossá akarja tenni, hogy véletlenszerű képekre is lehet majd minél viccesebb szövegeket írni.
 
 ## Vágyálom rendszer
 
-Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár kiválasztani egy kép alapot, melyre könnyedén tud szöveget írni. Ha a kreativitását szeretné növelni, akkor pedig a véletlenszerű képekre lehet írni saját szöveget. Ezeket a memek pedig egy másik oldalon megtekinthetőek lesznek majd, ahol le lehet azokat tölteni.
+- Egy olyan weboldalt szeretne, amelyen egyszerűen lehet akár feltölteni, akár kiválasztani egy kép alapot, melyre könnyedén tud szöveget írni. 
+- Ha a kreativitását szeretné növelni, akkor pedig a véletlenszerű képekre lehet írni saját szöveget. 
+- Ezeket a memek pedig egy másik oldalon megtekinthetőek lesznek majd, ahol le lehet azokat tölteni.
 ## Követelménylista
 
 - K01 A kép elkészítésekor a felhasználónak egy felhasználó nevet kell megadnia.
@@ -31,6 +39,13 @@ A feltöltött képeknél nem láthatjuk a feltöltés dátumát.
 
 ## Igényelt üzleti folyamatok
 Kép feltöltése/kiválasztása => bemeneti adatok ellenőrzése => ha minden helyes, akkor kép generálása => a kép kimutatása a felhasználónak => a kép lementése
+
+1. Az általunk kívánt képet feltöltik vagy kiválasztja a weboldalon elérhetőek közül. 
+2. Ellenőrzi, hogy a feltöltött kép valóban kép fájlformátomú, azaz png, jpg vagy jpeg. 
+3. Ezután a felhasználó által begépelt szöveg rákerül a képre.
+4. Ha ellenőrizve lett, akkor 
+5. Eközben a kép a felhasználónak állandó jelleggel látható.
+6. Amint kész van a felhasználó, a kép legenerálódik és lementhető lesz.
 
 ## Használati esetek
 - Egyszerű képszerkesztéshez nem kell külön képszerkesztői felületet letölteni, ezt a weboldalon is végre lehet hajtani
