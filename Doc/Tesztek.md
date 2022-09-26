@@ -118,5 +118,35 @@
 
 - Teszt konkluzió: Megfelőlen működik a "MEME generálása" gomb.  
 
+### Frontend - Letöltés gombok tesztelése a főoldalon
 
+- Tesztelő neve: Sárközi Dániel
+
+- Teszelés ideje: 2022.09.25 19:21
+
+- Tesztelt rendszer: Frontend
+
+- Rendszer amin a teszt végbement: MacOS, Google Chrome
+
+- Várt eredmény:Megnyitja a képet teljes méretben egy új oldalon.
+
+- Kapott eredmény:Megnyitja a képet teljes méretben egy új oldalon.
+
+- Teszt konkluzió: Az elvártaknak megfelelően működik a letöltés gomb.  
+
+### Frontend - A memek feltöltése a főoldalra
+
+- Tesztelő neve: Sárközi Dániel
+
+- Teszelés ideje: 2022.09.26 8:36
+
+- Tesztelt rendszer: Frontend
+
+- Rendszer amin a teszt végbement: MacOS, Google Chrome
+
+- Várt eredmény:Feltölti a képet a főoldalra.
+
+- Kapott eredmény:Feltölti a képet a főoldalra.
+
+- Teszt konkluzió: A szerver helyes responset küld vissza. 
 
